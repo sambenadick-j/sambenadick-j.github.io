@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_bag" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="data">
+    <div class="div1">
+        parent
+        <div class="div2">
+            child1
+        </div>
+        <div class="div3">
+            child2
+        </div>
+    </div>
+    <!-- <button id="button">click</button>     -->
+
+</body>
+<script src="DOM.js" async>
+<!-- let global1 = 0
+function add(a,b){
+    let temp = 0
+    temp = a
+    return Math.random()+a+b
+}
+console.log(add(1,2))
+console.log(add(2,3)) -->
+
+function clousureDemo(){
+    let temp = 0
+    return ()=>{
+        temp++
+        console.log(temp)
+    }
+}
+
+
+const storeClosure=clousureDemo()
+
+storeClosure()
+storeClosure()
+storeClosure()
+storeClosure()
+
+</script>
+</html>
