@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "iphone6s",
+        "count": 250
+    },
+    {
+        "id": 2,
+        "name": "iphone7s",
+        "count": 200
+    },
+    {
+        "id": 3,
+        "name": "iphone 12",
+        "count": 300
+    },
+    {
+        "id": 4,
+        "name": "iphone 13",
+        "count": 260
+    },
+    {
+        "id": 5,
+        "name": "iphone 13 pro ",
+        "count": 270
+    },
+    {
+        "name": "iphonese",
+        "count": 250,
+        "id": 6
+    }
+]
